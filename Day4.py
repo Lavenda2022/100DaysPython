@@ -9,6 +9,8 @@ print(f"Computer choose {computer}.")
 
 if (you == 0) and (computer == 2):
     print("You win.")
+elif (computer == 0) and (you == 2):
+    print("You lose.")
 elif computer > you:
     print("You lose.")
 elif computer == you:
